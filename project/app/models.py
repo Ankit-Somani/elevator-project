@@ -45,6 +45,9 @@ class Elevator(models.Model):
             self.direction = "Up"
             self.curr_floor = dest_floor
             self.save()
+        p, q = self.dest_string_to_list()
+        p.append(dest_floor)
+        self.dest_list_to_string(p,q)
         
     
     def dest_string_to_list(self):
