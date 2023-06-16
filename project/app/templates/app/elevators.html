@@ -1,0 +1,9 @@
+{% if elevator_list %}
+    <ul>
+    {% for elev in elevator_list %}
+        <li>{{ elev }}</li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No elevators are available.</p>
+{% endif %}
