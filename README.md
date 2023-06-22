@@ -4,8 +4,9 @@ The main project resides in project/ directory.
 ## Instructions to run the app locally: ##
 * Clone the repo, install the requirements and move to this directory
   * `git clone https://github.com/Ankit-Somani/elevator-project.git`
+  * `cd elevator-project/` 
   * `pip install -r requirements.txt`
-  * `cd elevator-project/project` 
+  * `cd project/` 
 * Run the django app
   * `python manage.py runserver`
 * Copy the url shown in the terminal and open it in a browser.
